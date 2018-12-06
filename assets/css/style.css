@@ -11,12 +11,23 @@ body {
 .column {
   float: left;
   width: 50%;
-  height: 450px;
-  padding: 20px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  height: 500px;
+  border: solid 1px green; }
+
+#icon img {
+  margin-top: 100px;
+  margin-left: 400px; }
+
+#categories {
+  font-family: 'Kalam', cursive; }
+
+#jokes {
+  font-family: 'Signika', sans-serif;
+  text-align: right; }
+
+li:hover {
+  font-size: 15px;
+  color: red; }
 
 /* Clear floats after the columns */
 .row:after {

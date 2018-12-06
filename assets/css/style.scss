@@ -7,25 +7,39 @@ body {
 * {
   box-sizing: border-box;
 }
-
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
   width: 50%;
-  height: 450px;
-  padding: 20px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 500px;
 
+  border: solid 1px green;
+}
+#icon {
+  img {
+    margin-top: 100px;
+    margin-left: 400px;
+  }
+}
+#empty {
+
+}
+#categories {
+  font-family: 'Kalam', cursive;
+}
+#jokes {
+  font-family: 'Signika', sans-serif;
+  text-align: right;
+}
+li:hover {
+  font-size: 15px;
+  color: red;
 }
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
-
 }
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
